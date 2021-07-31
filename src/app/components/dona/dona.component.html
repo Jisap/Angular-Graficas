@@ -1,0 +1,15 @@
+<div class="d-flex flex-column mt-5">
+        
+    <div style="display: block">
+        <canvas baseChart [data]="doughnutChartData" 
+                    [labels]="doughnutChartLabels" 
+                    [chartType]="doughnutChartType">
+        </canvas>
+    </div>
+
+    <div class="d-grid gap-2 col-6 mx-auto mt-3">
+        <button class="btn btn-primary" 
+                (click)='numerosRandom()'>Update</button>
+    </div>
+
+</div>
